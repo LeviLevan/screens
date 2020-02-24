@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///D:/Extrawest/Flutter/flutter_company/lib/ui/screen/second_screen.dart';
+//import 'package:flutter_company/ui/screen/second_screen.dart';
 
 class TopPanel extends StatefulWidget {
   String titleText1 = "Предложения";

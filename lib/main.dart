@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_company/ui/screen/first_screen.dart';
-import 'file:///D:/Extrawest/Flutter/flutter_company/lib/ui/screen/second_screen.dart';
+import 'package:flutter_company/ui/screen/second_screen.dart';
 
 void main() {
   runApp(
