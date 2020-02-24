@@ -16,13 +16,18 @@ class _FirstScreenState extends State<FirstScreen> {
           centerTitle: true,
           title: Text('Предложения')
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            TopPanel(),
-            FirstScreenContainer(),
-          ],
-        ),
+      body: ListView(
+       children: <Widget>[
+         TopPanel(),
+         FirstScreenContainer(
+             imageUrl1:'assets/image_20.png',
+             imageUrl2:'assets/image_22.png',
+             imageUrl3:'assets/image_38.png',
+             imageUrl4:'assets/image_20.png',
+             imageUrl5:'assets/image_22.png',
+             imageUrl6:'assets/image_38.png',
+         ),
+       ],
       )
     );
   }
